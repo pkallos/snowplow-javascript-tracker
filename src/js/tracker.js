@@ -333,7 +333,7 @@
 
 			var image = new Image(1, 1);
 
-			// Let's chec that we have a Url to ping
+			// Let's check that we have a Url to ping
 			if (configCollectorUrl === null) {
 				throw "No Snowplow collector configured, cannot track";
 			}
@@ -1593,7 +1593,7 @@
 
 			// TODO: comments for ad tracking functions
 			trackAdImpression: function(impressionId, costIfCpm, bannerId, zoneId, advertiserId, costModel, campaignId, context) {
-				logUnstructEvent('ad_impression', 
+				logUnstructEvent('ad_impression',
 				{
 					impression_id: impressionId,
 					cost_if_cpm: costIfCpm,
